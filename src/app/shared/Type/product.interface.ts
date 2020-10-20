@@ -1,6 +1,7 @@
 export interface ProductInterface {
   type: string
   id: number
+  isFavorite?: boolean
   attributes: {
     rooms: string
     address: {
