@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  product: "https://raw.githubusercontent.com/FrolovArkadiy/task_for_middle/master/entities.json"
 };
 
 /*
