@@ -14,11 +14,15 @@
           <li class="list-group-item">type: {{product.type}}</li>
           <li class="list-group-item">rooms: {{product.attributes.rooms}}</li>
           <li class="list-group-item">area: {{product.attributes.area}} {{product.attributes.unit}}</li>
-          <li class="list-group-item">address: {{product.attributes.address.city}}, {{product.attributes.address.street}} {{product.attributes.address.house}}/{{product.attributes.address.room}}</li>
-          <li class="list-group-item">seller: {{product.relationships.attributes.last_name}} {{product.relationships.attributes.first_name}}</li>
+          <li class="list-group-item">address: {{product.attributes.address.city}}
+            , {{product.attributes.address.street}} {{product.attributes.address.house}}
+            /{{product.attributes.address.room}}</li>
+          <li class="list-group-item">
+            seller: {{product.relationships.attributes.last_name}} {{product.relationships.attributes.first_name}}</li>
         </ul>
         <div class="card-body">
-          <button type="button" class="btn btn-primary" [ngClass]="{'bg-success': product.isFavorite}" (click)="toggleFavorite(product.id)">
+          <button type="button" class="btn btn-primary" [ngClass]="{'bg-success': product.isFavorite}"
+                  (click)="toggleFavorite(product)">
             {{product.isFavorite ? "Disliked" : "Like"}}
           </button>
         </div>

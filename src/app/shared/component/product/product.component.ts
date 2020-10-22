@@ -1,5 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ProductService} from "../../service/product.service";
+import {ProductInterface} from "../../Type/product.interface";
 
 @Component({
   selector: 'app-product',
@@ -10,8 +11,8 @@ export class ProductComponent {
 
   constructor(private productService: ProductService) { }
 
-  toggleFavorite(id: number): void {
-    this.productService.toggleFavorite(id)
+  toggleFavorite(product: ProductInterface): void {
+    this.productService.toggleFavorite(product)
   }
 
 }
