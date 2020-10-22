@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c8d5b9-b3df-4d1f-80cf-6f8bfdec27d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/src/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/shims-tsx.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/shims-vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vue/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactjs/src/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reactjs/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/angular/node_modules/typescript/lib" />
@@ -47,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reactjs/src" />
       <recent name="$PROJECT_DIR$/vue/src" />
     </key>
   </component>
@@ -60,7 +54,7 @@
       <updated>1603346941025</updated>
       <workItem from="1603346942122" duration="815000" />
       <workItem from="1603347776784" duration="4442000" />
-      <workItem from="1603353715160" duration="1831000" />
+      <workItem from="1603353715160" duration="6696000" />
     </task>
     <task id="LOCAL-00001" summary="add vue">
       <created>1603347178908</created>
@@ -76,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603347205550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="vue complete">
+      <created>1603355886009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603355886009</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,13 +85,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vue" />
+    <MESSAGE value="vue complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1011" y="47" key="CommitChangelistDialog2" timestamp="1603347205417">
-      <screen x="-1409" y="23" width="1409" height="877" />
+    <state x="407" y="47" key="CommitChangelistDialog2" timestamp="1603355885814">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="-1011" y="47" key="CommitChangelistDialog2/0.23.1440.877/-1409.23.1409.877@-1409.23.1409.877" timestamp="1603347205417" />
+    <state x="407" y="47" key="CommitChangelistDialog2/0.23.1440.877/-1409.23.1409.877@0.23.1440.877" timestamp="1603355885814" />
     <state width="1388" height="231" key="GridCell.Tab.0.bottom" timestamp="1603353872506">
       <screen x="-1409" y="23" width="1409" height="877" />
     </state>
